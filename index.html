@@ -1,77 +1,85 @@
-or<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blue Heavens Beauty Salon</title>
+    <title>Blue Heavens Premium Salon</title>
     <style>
-        /* Modern Colour Theme */
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #fdf6f0; color: #4a3728; padding: 20px; }
-        h1 { text-align: center; color: #8b4513; border-bottom: 3px solid #d4af37; padding-bottom: 10px; }
-        .category { background: #ffffff; padding: 20px; margin-bottom: 25px; border-radius: 15px; border-left: 5px solid #d4af37; box-shadow: 0 4px 10px rgba(0,0,0,0.05); }
-        h2 { color: #5d4037; margin-top: 0; }
-        .item { display: flex; justify-content: space-between; padding: 12px 0; border-bottom: 1px solid #f0e6dd; }
-        .book-btn { background: #d4af37; color: white; border: none; padding: 8px 15px; border-radius: 20px; text-decoration: none; font-size: 14px; font-weight: bold; transition: 0.3s; }
-        .book-btn:hover { background: #b8860b; }
+        body { font-family: 'Segoe UI', Arial, sans-serif; background: #0a0a0a; color: #e0e0e0; padding: 20px; margin: 0; }
+        .logo { width: 120px; display: block; margin: 0 auto 20px; border-radius: 50%; border: 2px solid #d4af37; }
+        h1 { text-align: center; color: #d4af37; text-transform: uppercase; letter-spacing: 2px; }
+        .category { background: #161616; padding: 20px; margin-bottom: 20px; border: 1px solid #333; }
+        h2 { color: #d4af37; font-size: 1.1rem; border-left: 3px solid #d4af37; padding-left: 10px; margin-top: 0; }
+        .item { display: flex; justify-content: space-between; align-items: center; padding: 10px 0; border-bottom: 1px solid #222; }
+        .price { color: #aaa; font-size: 0.9rem; }
+        .book-btn { background: transparent; color: #d4af37; border: 1px solid #d4af37; padding: 5px 12px; text-decoration: none; font-size: 0.75rem; text-transform: uppercase; transition: 0.3s; }
+        .book-btn:hover { background: #d4af37; color: #000; }
+        footer { text-align: center; margin-top: 30px; padding: 20px; color: #666; font-size: 0.8rem; border-top: 1px solid #222; }
     </style>
 </head>
 <body>
-    <h1>Blue Heavens Beauty Salon</h1>
+    <img src="logo.jpg" alt="Logo" class="logo">
+    <h1>Blue Heavens</h1>
 
-    <!-- Skincare Services -->
+    <!-- Skincare -->
     <div class="category">
         <h2>Skincare Services</h2>
-        <div class="item"><span>Cheryl Bleach</span><span>600/-</span><a href="https://docs.google.com/forms/d/e/1FAIpQLSejRpDIE5QAgjMkgFhxbybcN1elvSvv0dDhtjFZZNxPkHZQJg/viewform" class="book-btn">Book</a></div>
-        <div class="item"><span>Oxy Bleach</span><span>450/-</span><a href="https://docs.google.com/forms/d/e/1FAIpQLSejRpDIE5QAgjMkgFhxbybcN1elvSvv0dDhtjFZZNxPkHZQJg/viewform" class="book-btn">Book</a></div>
-        <div class="item"><span>Protein Bleach</span><span>500/-</span><a href="https://docs.google.com/forms/d/e/1FAIpQLSejRpDIE5QAgjMkgFhxbybcN1elvSvv0dDhtjFZZNxPkHZQJg/viewform" class="book-btn">Book</a></div>
-        <div class="item"><span>Lotus Cleanup</span><span>1000/-</span><a href="https://docs.google.com/forms/d/e/1FAIpQLSejRpDIE5QAgjMkgFhxbybcN1elvSvv0dDhtjFZZNxPkHZQJg/viewform" class="book-btn">Book</a></div>
-        <div class="item"><span>Lotus Facial</span><span>1300/-</span><a href="https://docs.google.com/forms/d/e/1FAIpQLSejRpDIE5QAgjMkgFhxbybcN1elvSvv0dDhtjFZZNxPkHZQJg/viewform" class="book-btn">Book</a></div>
-        <div class="item"><span>Kaya Cleanup</span><span>1300/-</span><a href="https://docs.google.com/forms/d/e/1FAIpQLSejRpDIE5QAgjMkgFhxbybcN1elvSvv0dDhtjFZZNxPkHZQJg/viewform" class="book-btn">Book</a></div>
-        <div class="item"><span>Kaya Facial</span><span>1600/-</span><a href="https://docs.google.com/forms/d/e/1FAIpQLSejRpDIE5QAgjMkgFhxbybcN1elvSvv0dDhtjFZZNxPkHZQJg/viewform" class="book-btn">Book</a></div>
-        <div class="item"><span>Kaya Whitening Facial</span><span>2000/-</span><a href="https://docs.google.com/forms/d/e/1FAIpQLSejRpDIE5QAgjMkgFhxbybcN1elvSvv0dDhtjFZZNxPkHZQJg/viewform" class="book-btn">Book</a></div>
-        <div class="item"><span>03+ Cleanup</span><span>2500/-</span><a href="https://docs.google.com/forms/d/e/1FAIpQLSejRpDIE5QAgjMkgFhxbybcN1elvSvv0dDhtjFZZNxPkHZQJg/viewform" class="book-btn">Book</a></div>
-        <div class="item"><span>03+ Facial</span><span>3500/-</span><a href="https://docs.google.com/forms/d/e/1FAIpQLSejRpDIE5QAgjMkgFhxbybcN1elvSvv0dDhtjFZZNxPkHZQJg/viewform" class="book-btn">Book</a></div>
+        <div class="item"><span>Cheryl Bleach</span><span class="price">600/-</span><a href="#" class="book-btn">Book</a></div>
+        <div class="item"><span>Oxy Bleach</span><span class="price">450/-</span><a href="#" class="book-btn">Book</a></div>
+        <div class="item"><span>Protein Bleach</span><span class="price">500/-</span><a href="#" class="book-btn">Book</a></div>
+        <div class="item"><span>Lotus Cleanup</span><span class="price">1000/-</span><a href="#" class="book-btn">Book</a></div>
+        <div class="item"><span>Lotus Facial</span><span class="price">1300/-</span><a href="#" class="book-btn">Book</a></div>
+        <div class="item"><span>Kaya Cleanup</span><span class="price">1300/-</span><a href="#" class="book-btn">Book</a></div>
+        <div class="item"><span>Kaya Facial</span><span class="price">1600/-</span><a href="#" class="book-btn">Book</a></div>
+        <div class="item"><span>Kaya Whitening Facial</span><span class="price">2000/-</span><a href="#" class="book-btn">Book</a></div>
+        <div class="item"><span>O3+ Cleanup</span><span class="price">2500/-</span><a href="#" class="book-btn">Book</a></div>
+        <div class="item"><span>O3+ Facial</span><span class="price">3500/-</span><a href="#" class="book-btn">Book</a></div>
     </div>
 
-    <!-- Hair Services -->
+    <!-- Hair -->
     <div class="category">
         <h2>Hair Services</h2>
-        <div class="item"><span>Haircut & Blow Dry</span><span>800/-</span><a href="https://docs.google.com/forms/d/e/1FAIpQLSejRpDIE5QAgjMkgFhxbybcN1elvSvv0dDhtjFZZNxPkHZQJg/viewform" class="book-btn">Book</a></div>
-        <div class="item"><span>Hair Wash Premium</span><span>400/-</span><a href="https://docs.google.com/forms/d/e/1FAIpQLSejRpDIE5QAgjMkgFhxbybcN1elvSvv0dDhtjFZZNxPkHZQJg/viewform" class="book-btn">Book</a></div>
-        <div class="item"><span>Hair Treatment</span><span>1200/-</span><a href="https://docs.google.com/forms/d/e/1FAIpQLSejRpDIE5QAgjMkgFhxbybcN1elvSvv0dDhtjFZZNxPkHZQJg/viewform" class="book-btn">Book</a></div>
-        <div class="item"><span>Blow Dry</span><span>400/-</span><a href="https://docs.google.com/forms/d/e/1FAIpQLSejRpDIE5QAgjMkgFhxbybcN1elvSvv0dDhtjFZZNxPkHZQJg/viewform" class="book-btn">Book</a></div>
-        <div class="item"><span>Straightening</span><span>400/-</span><a href="https://docs.google.com/forms/d/e/1FAIpQLSejRpDIE5QAgjMkgFhxbybcN1elvSvv0dDhtjFZZNxPkHZQJg/viewform" class="book-btn">Book</a></div>
-        <div class="item"><span>Curls</span><span>650/-</span><a href="https://docs.google.com/forms/d/e/1FAIpQLSejRpDIE5QAgjMkgFhxbybcN1elvSvv0dDhtjFZZNxPkHZQJg/viewform" class="book-btn">Book</a></div>
-        <div class="item"><span>Hair Setting (Rollers)</span><span>800/-</span><a href="https://docs.google.com/forms/d/e/1FAIpQLSejRpDIE5QAgjMkgFhxbybcN1elvSvv0dDhtjFZZNxPkHZQJg/viewform" class="book-btn">Book</a></div>
-        <div class="item"><span>Hair Upstyle</span><span>1000/-</span><a href="https://docs.google.com/forms/d/e/1FAIpQLSejRpDIE5QAgjMkgFhxbybcN1elvSvv0dDhtjFZZNxPkHZQJg/viewform" class="book-btn">Book</a></div>
-        <div class="item"><span>Hair Upstyle Advance</span><span>1300/-</span><a href="https://docs.google.com/forms/d/e/1FAIpQLSejRpDIE5QAgjMkgFhxbybcN1elvSvv0dDhtjFZZNxPkHZQJg/viewform" class="book-btn">Book</a></div>
-        <div class="item"><span>Hair Upstyle W Ext</span><span>2500/-</span><a href="https://docs.google.com/forms/d/e/1FAIpQLSejRpDIE5QAgjMkgFhxbybcN1elvSvv0dDhtjFZZNxPkHZQJg/viewform" class="book-btn">Book</a></div>
-        <div class="item"><span>Hair Accessories</span><span>1000/-</span><a href="https://docs.google.com/forms/d/e/1FAIpQLSejRpDIE5QAgjMkgFhxbybcN1elvSvv0dDhtjFZZNxPkHZQJg/viewform" class="book-btn">Book</a></div>
+        <div class="item"><span>Haircut & Blow Dry</span><span class="price">800/-</span><a href="#" class="book-btn">Book</a></div>
+        <div class="item"><span>Hair Wash Premium</span><span class="price">400/-</span><a href="#" class="book-btn">Book</a></div>
+        <div class="item"><span>Hair Treatment</span><span class="price">1200/-</span><a href="#" class="book-btn">Book</a></div>
+        <div class="item"><span>Blow Dry</span><span class="price">400/-</span><a href="#" class="book-btn">Book</a></div>
+        <div class="item"><span>Straightening</span><span class="price">400/-</span><a href="#" class="book-btn">Book</a></div>
+        <div class="item"><span>Curls</span><span class="price">650/-</span><a href="#" class="book-btn">Book</a></div>
+        <div class="item"><span>Hair Setting (Rollers)</span><span class="price">800/-</span><a href="#" class="book-btn">Book</a></div>
+        <div class="item"><span>Hair Upstyle</span><span class="price">1000/-</span><a href="#" class="book-btn">Book</a></div>
+        <div class="item"><span>Hair Upstyle Advance</span><span class="price">1300/-</span><a href="#" class="book-btn">Book</a></div>
+        <div class="item"><span>Hair Upstyle W Ext</span><span class="price">2500/-</span><a href="#" class="book-btn">Book</a></div>
+        <div class="item"><span>Hair Accessories</span><span class="price">1000/-</span><a href="#" class="book-btn">Book</a></div>
     </div>
 
-    <!-- Nail Services -->
+    <!-- Nail -->
     <div class="category">
         <h2>Nail Services</h2>
-        <div class="item"><span>Express Manicure</span><span>450/-</span><a href="https://docs.google.com/forms/d/e/1FAIpQLSejRpDIE5QAgjMkgFhxbybcN1elvSvv0dDhtjFZZNxPkHZQJg/viewform" class="book-btn">Book</a></div>
-        <div class="item"><span>Express Pedicure</span><span>500/-</span><a href="https://docs.google.com/forms/d/e/1FAIpQLSejRpDIE5QAgjMkgFhxbybcN1elvSvv0dDhtjFZZNxPkHZQJg/viewform" class="book-btn">Book</a></div>
-        <div class="item"><span>Express Pedi Mani</span><span>900/-</span><a href="https://docs.google.com/forms/d/e/1FAIpQLSejRpDIE5QAgjMkgFhxbybcN1elvSvv0dDhtjFZZNxPkHZQJg/viewform" class="book-btn">Book</a></div>
-        <div class="item"><span>Classic Pedi Mani</span><span>1200/-</span><a href="https://docs.google.com/forms/d/e/1FAIpQLSejRpDIE5QAgjMkgFhxbybcN1elvSvv0dDhtjFZZNxPkHZQJg/viewform" class="book-btn">Book</a></div>
-        <div class="item"><span>Raga Pedi Mani</span><span>1400/-</span><a href="https://docs.google.com/forms/d/e/1FAIpQLSejRpDIE5QAgjMkgFhxbybcN1elvSvv0dDhtjFZZNxPkHZQJg/viewform" class="book-btn">Book</a></div>
-        <div class="item"><span>Lotus Crystal Pedi + Mani</span><span>1700/-</span><a href="https://docs.google.com/forms/d/e/1FAIpQLSejRpDIE5QAgjMkgFhxbybcN1elvSvv0dDhtjFZZNxPkHZQJg/viewform" class="book-btn">Book</a></div>
-        <div class="item"><span>03+ Prof Pedi+ Mani</span><span>1999/-</span><a href="https://docs.google.com/forms/d/e/1FAIpQLSejRpDIE5QAgjMkgFhxbybcN1elvSvv0dDhtjFZZNxPkHZQJg/viewform" class="book-btn">Book</a></div>
-        <div class="item"><span>Pedicalm Hydra Foot</span><span>2499/-</span><a href="https://docs.google.com/forms/d/e/1FAIpQLSejRpDIE5QAgjMkgFhxbybcN1elvSvv0dDhtjFZZNxPkHZQJg/viewform" class="book-btn">Book</a></div>
+        <div class="item"><span>Express Manicure</span><span class="price">450/-</span><a href="#" class="book-btn">Book</a></div>
+        <div class="item"><span>Express Pedicure</span><span class="price">500/-</span><a href="#" class="book-btn">Book</a></div>
+        <div class="item"><span>Express Pedi+Mani</span><span class="price">900/-</span><a href="#" class="book-btn">Book</a></div>
+        <div class="item"><span>Classic Pedi+Mani</span><span class="price">1200/-</span><a href="#" class="book-btn">Book</a></div>
+        <div class="item"><span>Raga Pedi+Mani</span><span class="price">1400/-</span><a href="#" class="book-btn">Book</a></div>
+        <div class="item"><span>Lotus Crystal Pedi+Mani</span><span class="price">1700/-</span><a href="#" class="book-btn">Book</a></div>
+        <div class="item"><span>03+ Prof Pedi+Mani</span><span class="price">1999/-</span><a href="#" class="book-btn">Book</a></div>
+        <div class="item"><span>Pedicalm Hydra Foot</span><span class="price">2499/-</span><a href="#" class="book-btn">Book</a></div>
     </div>
 
     <!-- Hair Removal -->
     <div class="category">
         <h2>Hair Removal (Waxing)</h2>
-        <div class="item"><span>Brazilian Face Wax</span><span>500/-</span><a href="https://docs.google.com/forms/d/e/1FAIpQLSejRpDIE5QAgjMkgFhxbybcN1elvSvv0dDhtjFZZNxPkHZQJg/viewform" class="book-btn">Book</a></div>
-        <div class="item"><span>Aloevera Wax (Half)</span><span>800/-</span><a href="https://docs.google.com/forms/d/e/1FAIpQLSejRpDIE5QAgjMkgFhxbybcN1elvSvv0dDhtjFZZNxPkHZQJg/viewform" class="book-btn">Book</a></div>
-        <div class="item"><span>Aloevera Wax (Full)</span><span>900/-</span><a href="https://docs.google.com/forms/d/e/1FAIpQLSejRpDIE5QAgjMkgFhxbybcN1elvSvv0dDhtjFZZNxPkHZQJg/viewform" class="book-btn">Book</a></div>
-        <div class="item"><span>Aloevera Full Body</span><span>2800/-</span><a href="https://docs.google.com/forms/d/e/1FAIpQLSejRpDIE5QAgjMkgFhxbybcN1elvSvv0dDhtjFZZNxPkHZQJg/viewform" class="book-btn">Book</a></div>
-        <div class="item"><span>Rica Wax</span><span>1500/-</span><a href="https://docs.google.com/forms/d/e/1FAIpQLSejRpDIE5QAgjMkgFhxbybcN1elvSvv0dDhtjFZZNxPkHZQJg/viewform" class="book-btn">Book</a></div>
-        <div class="item"><span>Rica Wax (Half)</span><span>1300/-</span><a href="https://docs.google.com/forms/d/e/1FAIpQLSejRpDIE5QAgjMkgFhxbybcN1elvSvv0dDhtjFZZNxPkHZQJg/viewform" class="book-btn">Book</a></div>
-        <div class="item"><span>Rica Full Body</span><span>3800/-</span><a href="https://docs.google.com/forms/d/e/1FAIpQLSejRpDIE5QAgjMkgFhxbybcN1elvSvv0dDhtjFZZNxPkHZQJg/viewform" class="book-btn">Book</a></div>
+        <div class="item"><span>Brazilian Face Wax</span><span class="price">500/-</span><a href="#" class="book-btn">Book</a></div>
+        <div class="item"><span>Aloevera Wax (Half)</span><span class="price">800/-</span><a href="#" class="book-btn">Book</a></div>
+        <div class="item"><span>Aloevera Wax (Full)</span><span class="price">900/-</span><a href="#" class="book-btn">Book</a></div>
+        <div class="item"><span>Aloevera Full Body</span><span class="price">2800/-</span><a href="#" class="book-btn">Book</a></div>
+        <div class="item"><span>Rica Wax</span><span class="price">1500/-</span><a href="#" class="book-btn">Book</a></div>
+        <div class="item"><span>Rica Wax (Half)</span><span class="price">1300/-</span><a href="#" class="book-btn">Book</a></div>
+        <div class="item"><span>Rica Full Body</span><span class="price">3800/-</span><a href="#" class="book-btn">Book</a></div>
     </div>
+
+    <footer>
+        <p>S.C.F 40F, Sector 15 Main Market, Faridabad</p>
+        <p>Phone: 9999075929, 012940060402</p>
+    </footer>
 </body>
 </html>
